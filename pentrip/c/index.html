@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>PenTrip 도전 · Challenge</title><link rel="stylesheet" href="/assets/site.css"></head>
+<body><main>
+<!-- With PenTrip installed, iOS/Android open the app for /pentrip/c/* and this page is never shown.
+     The code lives after '#', so it is never sent to any server. -->
+<img src="/assets/pentrip-icon.png" alt="" width="80" height="80" style="border-radius:20px;border:2px solid #1b1a2e">
+<div lang-block="ko">
+<h1>친구가 도전장을 보냈어요</h1>
+<p>같은 지도, 같은 조건으로 펜을 던져 보세요. PenTrip을 설치한 뒤 <strong>더보기 → 코드 입력</strong>에 아래 코드를 넣으면 돼요.</p>
+</div>
+<div lang-block="en">
+<h1>You've been challenged</h1>
+<p>Throw on the same map with the same rules. Install PenTrip, then enter this code in <strong>More → Enter code</strong>.</p>
+</div>
+<p><span class="code" id="code">—</span></p>
+<p><a class="btn secondary" id="copy" href="#">복사 · Copy</a></p>
+<p class="muted">App Store: coming soon</p>
+<footer><a href="/pentrip/">PenTrip</a></footer>
+</main>
+<script src="/assets/lang.js"></script>
+<script>
+(function(){var raw=decodeURIComponent(location.hash.slice(1)).toUpperCase();
+var ok=/^PT(-[0-9A-Z]{2,8}){1,6}$/.test(raw);var el=document.getElementById("code");el.textContent=ok?raw:"—";
+document.getElementById("copy").addEventListener("click",function(e){e.preventDefault();if(ok&&navigator.clipboard)navigator.clipboard.writeText(raw);});})();
+</script></body></html>

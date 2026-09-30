@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["MU569YV3Y3.com.appboong.pentrip"],
+        "components": [
+          { "/": "/pentrip/c/*", "comment": "PenTrip challenge links" }
+        ]
+      }
+    ]
+  }
+}
