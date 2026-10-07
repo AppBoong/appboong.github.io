@@ -12,3 +12,4 @@ AppBoong 앱들이 함께 쓰는 정적 사이트. 서버 코드는 없다.
 | 앱 | 경로 | iOS appID | Android |
 |---|---|---|---|
 | PenTrip | `/pentrip/c/*` | `MU569YV3Y3.com.appboong.pentrip` | 출시 후 추가 |
+| ParkShot | `/parkshot/` (유니버설 링크 없음 — 앱은 `parkshot://` 스킴만 사용, AASA 항목 없음) | `MU569YV3Y3.com.Appboong.ParkShot` | 없음(iOS 전용) |
