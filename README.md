@@ -13,3 +13,4 @@ AppBoong 앱들이 함께 쓰는 정적 사이트. 서버 코드는 없다.
 |---|---|---|---|
 | PenTrip | `/pentrip/c/*` | `MU569YV3Y3.com.appboong.pentrip` | 출시 후 추가 |
 | ParkShot | `/parkshot/` (유니버설 링크 없음 — 앱은 `parkshot://` 스킴만 사용, AASA 항목 없음) | `MU569YV3Y3.com.Appboong.ParkShot` | 없음(iOS 전용) |
+| GreenCheck | `/greencheck/` (유니버설 링크 없음 — 앱은 `greencheck://` 스킴만 사용, AASA 항목 없음). 이용약관은 Apple 표준 EULA. 아이콘은 임시(최종 아트 승인 후 교체) | `MU569YV3Y3.com.appboong.greencheck` | 없음(iOS 전용) |
